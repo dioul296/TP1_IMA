@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Date date= new Date(1996,04,22);
-    final Profil user= new Profil("Diallo","Mamadou Diouldé", (Date) date,"111244797");
+    final Profil user= new Profil("Diallo","Mamadou Diouldé", (Date) date,"MDDIA24");
     final String UrlToLoad="https://www.youtube.com/";
 
 
