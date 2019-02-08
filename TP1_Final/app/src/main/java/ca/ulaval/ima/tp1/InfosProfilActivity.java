@@ -17,7 +17,7 @@ public class InfosProfilActivity extends AppCompatActivity {
         String userStr="";
 
         if (user!=null){
-            userStr+="\nNom: "+user.getNom()+"\nPrenom: "+user.getPrenom()+"\nDate de naissance: "+user.getDateNaissance().getYear()+"/"+user.getDateNaissance().getMonth()+"/"+user.getDateNaissance().getDate()+"\nIdul: "+user.getIdul();
+            userStr+="\nNom                            :"+user.getNom()+"\nPrenom                      :"+user.getPrenom()+"\nDate de naissance   :"+user.getDateNaissance().getYear()+"/"+user.getDateNaissance().getMonth()+"/"+user.getDateNaissance().getDate()+"\nIdul                              :"+user.getIdul();
             TextView textView=(TextView) findViewById(R.id.textViewInfos);
             textView.setText(userStr);
 
